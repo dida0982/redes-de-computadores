@@ -116,3 +116,4 @@ elif dxv == "vantagens":
     print(vantagens.get(escolha, "Opção inválida."))
 else:
     print("Você precisa digitar 'desvantagens' ou 'vantagens'.")
+
