@@ -96,9 +96,9 @@ desvantagens = {
 
 # Dicionário de vantagens
 vantagens = {
-    "automação": "Permite que tarefas sejam realizadas automaticamente, trazendo praticidade.",
-    "eficiência": "Reduz desperdícios de energia e recursos, aumentando a produtividade.",
-    "monitoramento": "Oferece dados em tempo real para melhor tomada de decisão.",
+    "automação": "Dispositivos inteligentes podem executar tarefas sem intervenção humana. Exemplo: lâmpadas que acendem sozinhas quando você entra em casa ou irrigadores que ativam apenas quando o solo está seco.",
+    "eficiência": "Sensores ajudam a reduzir desperdícios. Uma geladeira inteligente pode ajustar o consumo de energia, e fábricas podem otimizar processos para gastar menos recursos.",
+    "monitoramento": "Usuários e empresas conseguem acompanhar dados instantaneamente. Exemplo: pulseiras fitness que mostram batimentos cardíacos ou sensores industriais que alertam sobre falhas antes que elas aconteçam.",
     "saúde": "Dispositivos médicos conectados ajudam no acompanhamento remoto de pacientes.",
     "segurança": "Câmeras e sensores aumentam a proteção de casas e empresas.",
     "cidades inteligentes": "Melhora o trânsito, iluminação pública e coleta de lixo.",
