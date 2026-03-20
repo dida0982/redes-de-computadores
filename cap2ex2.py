@@ -86,8 +86,8 @@ dxv = input('Você quer saber as "desvantagens" ou "vantagens"? ').strip().lower
 desvantagens = {
     "segurança": "Muitos dispositivos IoT têm proteção fraca contra ataques. Isso significa que hackers podem invadir câmeras, fechaduras inteligentes ou até sistemas industriais, causando riscos sérios.",
     "privacidade": "Como os dispositivos coletam dados constantemente (sobre hábitos, localização, saúde, consumo de energia), existe o perigo de uso indevido dessas informações por empresas ou criminosos.",
-    "dependência": "A vida cotidiana pode ficar paralisada se a tecnologia falhar.",
-    "interoperabilidade": "Nem todos os dispositivos funcionam bem juntos, gerando incompatibilidades.",
+    "dependência": "Quanto mais conectados estamos, mais ficamos vulneráveis a falhas. Se a rede cai ou o dispositivo quebra, tarefas simples (como abrir uma porta ou acender a luz) podem ficar impossíveis",
+    "interoperabilidade": "Nem todos os dispositivos “conversam” entre si. Isso pode gerar incompatibilidades, obrigando o usuário a comprar equipamentos de uma mesma marca ou ecossistema.",
     "custo": "Dispositivos IoT podem ser caros e exigir manutenção frequente.",
     "manutenção": "Atualizações constantes são necessárias para manter a segurança e funcionalidade.",
     "escalabilidade": "Gerenciar bilhões de dispositivos conectados é um desafio técnico.",
