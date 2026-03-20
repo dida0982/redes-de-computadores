@@ -78,8 +78,41 @@ Quer que eu monte um exemplo prático de **como a IoT já está sendo usada no B
 
 '''
 
-print('Malefícios e Benefícos das IoFs ( Internet das Coisas)')
+print('Desvantagens e Vantagens da IoT (Internet das Coisas)')
 
-bxm = input('Você quer saber os benefícios ou malefífios?')
+dxv = input('Você quer saber as "desvantagens" ou "vantagens"? ').strip().lower()
 
-maleficis = []
+# Dicionário de desvantagens
+desvantagens = {
+    "segurança": "Dispositivos IoT podem ser vulneráveis a ataques cibernéticos.",
+    "privacidade": "A coleta constante de dados pode comprometer a privacidade dos usuários.",
+    "dependência": "A vida cotidiana pode ficar paralisada se a tecnologia falhar.",
+    "interoperabilidade": "Nem todos os dispositivos funcionam bem juntos, gerando incompatibilidades.",
+    "custo": "Dispositivos IoT podem ser caros e exigir manutenção frequente.",
+    "manutenção": "Atualizações constantes são necessárias para manter a segurança e funcionalidade.",
+    "escalabilidade": "Gerenciar bilhões de dispositivos conectados é um desafio técnico.",
+    "impacto ambiental": "O descarte de dispositivos IoT gera lixo eletrônico e consumo de energia elevado."
+}
+
+# Dicionário de vantagens
+vantagens = {
+    "automação": "Permite que tarefas sejam realizadas automaticamente, trazendo praticidade.",
+    "eficiência": "Reduz desperdícios de energia e recursos, aumentando a produtividade.",
+    "monitoramento": "Oferece dados em tempo real para melhor tomada de decisão.",
+    "saúde": "Dispositivos médicos conectados ajudam no acompanhamento remoto de pacientes.",
+    "segurança": "Câmeras e sensores aumentam a proteção de casas e empresas.",
+    "cidades inteligentes": "Melhora o trânsito, iluminação pública e coleta de lixo.",
+    "agricultura": "Sensores otimizam irrigação e aumentam a produção agrícola."
+}
+
+# Escolha do usuário
+if dxv == "desvantagens":
+    print("\nOpções disponíveis:", ", ".join(desvantagens.keys()))
+    escolha = input("Digite uma desvantagem para saber mais: ").strip().lower()
+    print(desvantagens.get(escolha, "Opção inválida."))
+elif dxv == "vantagens":
+    print("\nOpções disponíveis:", ", ".join(vantagens.keys()))
+    escolha = input("Digite uma vantagem para saber mais: ").strip().lower()
+    print(vantagens.get(escolha, "Opção inválida."))
+else:
+    print("Você precisa digitar 'desvantagens' ou 'vantagens'.")
