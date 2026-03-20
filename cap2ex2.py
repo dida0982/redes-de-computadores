@@ -101,7 +101,7 @@ vantagens = {
     "monitoramento": "Usuários e empresas conseguem acompanhar dados instantaneamente. Exemplo: pulseiras fitness que mostram batimentos cardíacos ou sensores industriais que alertam sobre falhas antes que elas aconteçam.",
     "saúde": "Dispositivos médicos conectados permitem acompanhamento remoto de pacientes, ajudando médicos a tomar decisões rápidas e precisas.",
     "segurança": "Câmeras e fechaduras inteligentes aumentam a proteção de casas e empresas, permitindo monitoramento remoto pelo celular.",
-    "cidades inteligentes": "Melhora o trânsito, iluminação pública, coleta de lixo.",
+    "cidades inteligentes": "Melhora o trânsito, iluminação pública, coleta de lixo, entrega de produtos...",
     "agricultura": "Sensores otimizam irrigação e aumentam a produção agrícola."
 }
 
