@@ -104,17 +104,35 @@ vantagens = {
 }
 
 # Escolha do usuário
-if dxv == "1":
-    print("\nOpções de Desvantagens:")
-    for num, texto in desvantagens.items():
-        print(f"{num} - {texto.split(':')[0]}")
-    escolha = int(input("Digite o número da desvantagem para saber mais: "))
-    print(desvantagens.get(escolha, "Opção inválida."))
-elif dxv == "2":
-    print("\nOpções de Vantagens:")
-    for num, texto in vantagens.items():
-        print(f"{num} - {texto.split(':')[0]}")
-    escolha = int(input("Digite o número da vantagem para saber mais: "))
-    print(vantagens.get(escolha, "Opção inválida."))
-else:
-    print("Você precisa digitar 1 (Desvantagens) ou 2 (Vantagens).")
+while True:
+    print("\nMenu principal:")
+    print("1 - Desvantagens")
+    print("2 - Vantagens")
+    print("0 - Sair")
+
+    dxv = input("Digite o número da opção desejada: ").strip()
+
+    if dxv == "1":
+        print("\nOpções de Desvantagens:")
+        for num, texto in desvantagens.items():
+            print(f"{num} - {texto.split(':')[0]}")
+        escolha = int(input("Digite o número da desvantagem para saber mais (ou 0 para voltar): "))
+        if escolha == 0:
+            continue
+        print(desvantagens.get(escolha, "Opção inválida."))
+
+    elif dxv == "2":
+        print("\nOpções de Vantagens:")
+        for num, texto in vantagens.items():
+            print(f"{num} - {texto.split(':')[0]}")
+        escolha = int(input("Digite o número da vantagem para saber mais (ou 0 para voltar): "))
+        if escolha == 0:
+            continue
+        print(vantagens.get(escolha, "Opção inválida."))
+
+    elif dxv == "0":
+        print("Encerrando o programa. Até mais!")
+        break
+    else:
+        print("Você precisa digitar 1 (Desvantagens), 2 (Vantagens) ou 0 (Sair).")
+
