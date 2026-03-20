@@ -1,0 +1,1 @@
+#Como parte da Internet das Coisas, os dispositivos do dia a dia estão cade vez mais conectados a redes de computador. A IoT facilita as pessoas, entre outras coisas, monitorar seus pertences e o uso aparelhos. Mas qualqer tecnologia pode ser usada tanto para o bem quanto para o mal. Discuta algumas desvantagens dessa tecnologia. 
