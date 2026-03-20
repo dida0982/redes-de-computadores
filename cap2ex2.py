@@ -80,13 +80,6 @@ Quer que eu monte um exemplo prático de **como a IoT já está sendo usada no B
 
 print('(1)Desvantagens e (2)Vantagens da IoT (Internet das Coisas)')
 
-print("\nEscolha uma opção:")
-print("1 - Desvantagens")
-print("2 - Vantagens")
-
-
-dxv = input("Digite o número da opção desejada: ").strip()
-
 # Dicionário de desvantagens
 desvantagens = {
     1: "segurança: Muitos dispositivos IoT têm proteção fraca contra ataques. Isso significa que hackers podem invadir câmeras, fechaduras inteligentes ou até sistemas industriais, causando riscos sérios.",
