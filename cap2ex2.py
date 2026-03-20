@@ -77,3 +77,9 @@ Quer que eu monte um exemplo prático de **como a IoT já está sendo usada no B
 
 
 '''
+
+print('Malefícios e Benefícos das IoFs ( Internet das Coisas)')
+
+bxm = input('Você quer saber os benefícios ou malefífios?')
+
+maleficis = []
