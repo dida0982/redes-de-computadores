@@ -84,8 +84,8 @@ dxv = input('Você quer saber as "desvantagens" ou "vantagens"? ').strip().lower
 
 # Dicionário de desvantagens
 desvantagens = {
-    "segurança": "Dispositivos IoT podem ser vulneráveis a ataques cibernéticos.",
-    "privacidade": "A coleta constante de dados pode comprometer a privacidade dos usuários.",
+    "segurança": "Muitos dispositivos IoT têm proteção fraca contra ataques. Isso significa que hackers podem invadir câmeras, fechaduras inteligentes ou até sistemas industriais, causando riscos sérios.",
+    "privacidade": "Como os dispositivos coletam dados constantemente (sobre hábitos, localização, saúde, consumo de energia), existe o perigo de uso indevido dessas informações por empresas ou criminosos.",
     "dependência": "A vida cotidiana pode ficar paralisada se a tecnologia falhar.",
     "interoperabilidade": "Nem todos os dispositivos funcionam bem juntos, gerando incompatibilidades.",
     "custo": "Dispositivos IoT podem ser caros e exigir manutenção frequente.",
@@ -116,4 +116,3 @@ elif dxv == "vantagens":
     print(vantagens.get(escolha, "Opção inválida."))
 else:
     print("Você precisa digitar 'desvantagens' ou 'vantagens'.")
-
