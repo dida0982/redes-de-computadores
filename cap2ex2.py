@@ -89,35 +89,39 @@ dxv = input("Digite o número da opção desejada: ").strip()
 
 # Dicionário de desvantagens
 desvantagens = {
-    "segurança": "Muitos dispositivos IoT têm proteção fraca contra ataques. Isso significa que hackers podem invadir câmeras, fechaduras inteligentes ou até sistemas industriais, causando riscos sérios.",
-    "privacidade": "Como os dispositivos coletam dados constantemente (sobre hábitos, localização, saúde, consumo de energia), existe o perigo de uso indevido dessas informações por empresas ou criminosos.",
-    "dependência": "Quanto mais conectados estamos, mais ficamos vulneráveis a falhas. Se a rede cai ou o dispositivo quebra, tarefas simples (como abrir uma porta ou acender a luz) podem ficar impossíveis",
-    "interoperabilidade": "Nem todos os dispositivos “conversam” entre si. Isso pode gerar incompatibilidades, obrigando o usuário a comprar equipamentos de uma mesma marca ou ecossistema.",
-    "custo": "Dispositivos IoT podem ser caros e exigir manutenção frequente.",
-    "manutenção": "Atualizações constantes são necessárias para manter a segurança e funcionalidade.",
-    "escalabilidade": "Gerenciar bilhões de dispositivos conectados é um desafio técnico.",
-    "impacto ambiental": "O descarte de dispositivos IoT gera lixo eletrônico e consumo de energia elevado."
+    1: "segurança: Muitos dispositivos IoT têm proteção fraca contra ataques. Isso significa que hackers podem invadir câmeras, fechaduras inteligentes ou até sistemas industriais, causando riscos sérios.",
+    2: "privacidade: Como os dispositivos coletam dados constantemente (sobre hábitos, localização, saúde, consumo de energia), existe o perigo de uso indevido dessas informações por empresas ou criminosos.",
+    3: "dependência: Quanto mais conectados estamos, mais ficamos vulneráveis a falhas. Se a rede cai ou o dispositivo quebra, tarefas simples (como abrir uma porta ou acender a luz) podem ficar impossíveis",
+    4: "interoperabilidade: Nem todos os dispositivos “conversam” entre si. Isso pode gerar incompatibilidades, obrigando o usuário a comprar equipamentos de uma mesma marca ou ecossistema.",
+    5: "custo: Dispositivos IoT podem ser caros e exigir manutenção frequente.",
+    6: "manutenção: Atualizações constantes são necessárias para manter a segurança e funcionalidade.",
+    7: "escalabilidade: Gerenciar bilhões de dispositivos conectados é um desafio técnico.",
+    8: "impacto ambiental: O descarte de dispositivos IoT gera lixo eletrônico e consumo de energia elevado."
 }
 
 # Dicionário de vantagens
 vantagens = {
-    "automação": "Dispositivos inteligentes podem executar tarefas sem intervenção humana. Exemplo: lâmpadas que acendem sozinhas quando você entra em casa ou irrigadores que ativam apenas quando o solo está seco.",
-    "eficiência": "Sensores ajudam a reduzir desperdícios. Uma geladeira inteligente pode ajustar o consumo de energia, e fábricas podem otimizar processos para gastar menos recursos.",
-    "monitoramento": "Usuários e empresas conseguem acompanhar dados instantaneamente. Exemplo: pulseiras fitness que mostram batimentos cardíacos ou sensores industriais que alertam sobre falhas antes que elas aconteçam.",
-    "saúde": "Dispositivos médicos conectados permitem acompanhamento remoto de pacientes, ajudando médicos a tomar decisões rápidas e precisas.",
-    "segurança": "Câmeras e fechaduras inteligentes aumentam a proteção de casas e empresas, permitindo monitoramento remoto pelo celular.",
-    "cidades inteligentes": "Melhora o trânsito, iluminação pública, coleta de lixo, entrega de produtos...",
-    "agricultura": "Sensores otimizam irrigação e aumentam a produção agrícola."
+    1: "automação: Dispositivos inteligentes podem executar tarefas sem intervenção humana. Exemplo: lâmpadas que acendem sozinhas quando você entra em casa ou irrigadores que ativam apenas quando o solo está seco.",
+    2: "eficiência: Sensores ajudam a reduzir desperdícios. Uma geladeira inteligente pode ajustar o consumo de energia, e fábricas podem otimizar processos para gastar menos recursos.",
+    3: "monitoramento: Usuários e empresas conseguem acompanhar dados instantaneamente. Exemplo: pulseiras fitness que mostram batimentos cardíacos ou sensores industriais que alertam sobre falhas antes que elas aconteçam.",
+    4: "saúde: Dispositivos médicos conectados permitem acompanhamento remoto de pacientes, ajudando médicos a tomar decisões rápidas e precisas.",
+    5: "segurança: Câmeras e fechaduras inteligentes aumentam a proteção de casas e empresas, permitindo monitoramento remoto pelo celular.",
+    6: "cidades inteligentes: Melhora o trânsito, iluminação pública, coleta de lixo, entrega de produtos...",
+    7: "agricultura: Sensores otimizam irrigação e aumentam a produção agrícola."
 }
 
 # Escolha do usuário
-if dxv == "desvantagens":
-    print("\nOpções disponíveis:", ", ".join(desvantagens.keys()))
-    escolha = input("Digite uma desvantagem para saber mais: ").strip().lower()
+if dxv == "1":
+    print("\nOpções de Desvantagens:")
+    for num, texto in desvantagens.items():
+        print(f"{num} - {texto.split(':')[0]}")
+    escolha = int(input("Digite o número da desvantagem para saber mais: "))
     print(desvantagens.get(escolha, "Opção inválida."))
-elif dxv == "vantagens":
-    print("\nOpções disponíveis:", ", ".join(vantagens.keys()))
-    escolha = input("Digite uma vantagem para saber mais: ").strip().lower()
+elif dxv == "2":
+    print("\nOpções de Vantagens:")
+    for num, texto in vantagens.items():
+        print(f"{num} - {texto.split(':')[0]}")
+    escolha = int(input("Digite o número da vantagem para saber mais: "))
     print(vantagens.get(escolha, "Opção inválida."))
 else:
-    print("Você precisa digitar 'desvantagens' ou 'vantagens'.")
+    print("Você precisa digitar 1 (Desvantagens) ou 2 (Vantagens).")
