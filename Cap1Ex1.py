@@ -20,3 +20,6 @@ print("")
 print('(ii) Envio de 3.6 tb de dados:')
 taxa2 = (capacidade_pergaminho*2)/(tempo*2)
 print('Taxa de dados: ', taxa2 )
+
+print("")
+print('(iii) Fluxo infinito de dados (O corvo faz viagens contínuas, sempre levando 1,8 TB a cada 4 horas.):')
