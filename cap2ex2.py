@@ -99,9 +99,9 @@ vantagens = {
     "automação": "Dispositivos inteligentes podem executar tarefas sem intervenção humana. Exemplo: lâmpadas que acendem sozinhas quando você entra em casa ou irrigadores que ativam apenas quando o solo está seco.",
     "eficiência": "Sensores ajudam a reduzir desperdícios. Uma geladeira inteligente pode ajustar o consumo de energia, e fábricas podem otimizar processos para gastar menos recursos.",
     "monitoramento": "Usuários e empresas conseguem acompanhar dados instantaneamente. Exemplo: pulseiras fitness que mostram batimentos cardíacos ou sensores industriais que alertam sobre falhas antes que elas aconteçam.",
-    "saúde": "Dispositivos médicos conectados ajudam no acompanhamento remoto de pacientes.",
-    "segurança": "Câmeras e sensores aumentam a proteção de casas e empresas.",
-    "cidades inteligentes": "Melhora o trânsito, iluminação pública e coleta de lixo.",
+    "saúde": "Dispositivos médicos conectados permitem acompanhamento remoto de pacientes, ajudando médicos a tomar decisões rápidas e precisas.",
+    "segurança": "Câmeras e fechaduras inteligentes aumentam a proteção de casas e empresas, permitindo monitoramento remoto pelo celular.",
+    "cidades inteligentes": "Melhora o trânsito, iluminação pública, coleta de lixo.",
     "agricultura": "Sensores otimizam irrigação e aumentam a produção agrícola."
 }
 
