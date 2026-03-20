@@ -17,4 +17,5 @@ converter_bps = taxa * (10**12) * 8 /3600
 print(f'Convertido para bps: {converter_bps:,.2f} (1 Gbps)')
 
 print("")
-print('(ii) 3.6 tb de dados:')
+print('(ii) Envio de 3.6 tb de dados:')
+print('Taxa de dados: ', taxa*2, 'TB/h' )
