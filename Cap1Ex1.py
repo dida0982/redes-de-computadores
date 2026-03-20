@@ -23,3 +23,4 @@ print('Taxa de dados: ', taxa2 )
 
 print("")
 print('(iii) Fluxo infinito de dados (O corvo faz viagens contínuas, sempre levando 1,8 TB a cada 4 horas.):')
+print('Taxa de dados: ', taxa, 'TB/h' )
