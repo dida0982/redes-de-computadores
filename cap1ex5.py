@@ -6,6 +6,8 @@ Uma rede local (LAN – Local Area Network) é uma rede de computadores que cone
 
 Em comparação a esse modelo centralizado, o sistema cliente-servidor baseado em LAN apresenta vantagens importantes.
 
+
+
 A primeira vantagem é a distribuição de processamento. Em uma arquitetura cliente-servidor, cada máquina cliente possui capacidade própria de processamento, reduzindo a sobrecarga sobre um único sistema central. Isso melhora o desempenho geral e permite que múltiplos usuários executem tarefas de forma mais eficiente e independente.
 
 A segunda vantagem é a maior confiabilidade e flexibilidade. Em sistemas de time-sharing, uma falha no computador central pode interromper o acesso de todos os usuários. Já em uma rede LAN cliente-servidor, a falha de um equipamento não necessariamente compromete toda a rede, tornando o sistema mais robusto. Além disso, a arquitetura cliente-servidor facilita a expansão da rede, permitindo a adição de novos dispositivos e serviços conforme a necessidade.
