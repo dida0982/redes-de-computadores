@@ -1,0 +1,152 @@
+<p align="center">
+  <img src="/livro.png" alt="Capa do Livro" width="300"/>
+</p>
+---
+
+# 📡 Projeto: Exercícios de Redes de Computadores (6ª Edição)
+
+Este repositório tem como objetivo resolver **todos os exercícios do livro *Redes de Computadores – 6ª Edição***, utilizando a linguagem **Python**.
+
+A ideia é criar um material organizado, didático e fácil de navegar, onde qualquer pessoa consiga entender a estrutura e acompanhar a resolução dos exercícios sem se perder.
+
+---
+
+## 🎯 Objetivo
+
+* Resolver **100% dos exercícios do livro**
+* Utilizar **Python** como linguagem padrão
+* Manter um código **simples, organizado e didático**
+* Criar um repositório que sirva como:
+
+  * 📚 Material de estudo
+  * 🧠 Revisão de conceitos
+  * 💻 Prática de programação
+
+---
+
+## 🗂️ Estrutura do Projeto
+
+Os arquivos seguem um padrão **simples e direto**, baseado em:
+
+```
+Cap{capítulo}Ex{exercício}.py
+```
+
+### 📌 Exemplos:
+
+* `Cap1Ex1.py` → Capítulo 1, Exercício 1
+* `Cap2Ex5.py` → Capítulo 2, Exercício 5
+* `Cap4Ex10.py` → Capítulo 4, Exercício 10
+
+---
+
+## 📁 Organização dos Arquivos
+
+Todos os exercícios ficam na raiz do projeto (ou podem ser organizados em pastas por capítulo, se preferir no futuro).
+
+Cada arquivo contém:
+
+* 📝 Enunciado do exercício (comentado no código)
+* 💡 Lógica da solução
+* ▶️ Implementação em Python
+* 📌 (Opcional) Explicações adicionais
+
+---
+
+## 🧠 Padrão de Código
+
+Para manter consistência:
+
+* Código claro e legível
+* Uso de comentários explicativos
+* Evitar soluções desnecessariamente complexas
+* Priorizar aprendizado e compreensão
+
+---
+
+## ▶️ Como executar os arquivos
+
+1. Instale o Python (versão 3.x)
+
+2. Clone o repositório:
+
+   ```bash
+   git clone <url-do-repositorio>
+   ```
+
+3. Acesse a pasta:
+
+   ```bash
+   cd <nome-do-projeto>
+   ```
+
+4. Execute qualquer exercício:
+
+   ```bash
+   python Cap1Ex1.py
+   ```
+
+---
+
+## 📌 Observações Importantes
+
+* Cada arquivo é **independente**
+* Não há dependência entre exercícios
+* Você pode rodar qualquer exercício separadamente
+
+---
+
+## 🚀 Progresso
+
+Você pode acompanhar o progresso pelos arquivos já criados:
+
+* ✔️ Exercícios concluídos → arquivos existentes
+* ⏳ Exercícios pendentes → ainda não implementados
+
+---
+
+## 📖 Sobre o Livro
+
+Este projeto é baseado no livro:
+
+**Redes de Computadores – 6ª Edição**
+
+Os exercícios abordam temas como:
+
+* Camada de aplicação
+* Transporte
+* Rede
+* Enlace
+* Arquitetura da internet
+
+---
+
+## 🤝 Contribuição
+
+Se alguém quiser contribuir:
+
+* Melhorar soluções
+* Otimizar código
+* Adicionar explicações
+
+Fique à vontade para abrir um **pull request** 🚀
+
+---
+
+## 🧑‍💻 Autor
+
+Projeto desenvolvido para fins de estudo e prática em redes de computadores e programação em Python.
+
+---
+
+## 🧠 Resumo
+
+👉 Este repositório é basicamente um **guia prático completo do livro**, com:
+
+* Todos os exercícios resolvidos
+* Organização simples
+* Fácil navegação
+* Código direto ao ponto
+
+---
+
