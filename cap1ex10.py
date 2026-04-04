@@ -10,4 +10,4 @@
 
 # d=2*10**8*0.1 = d=2*10**7m
 
-
+#convertendo para quilômetro : d = 20.000 km
