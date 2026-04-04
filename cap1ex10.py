@@ -3,3 +3,9 @@
 #velocidade da luz: c = 3*10**8 m/s
 
 # 2/3 da velocidade da luz: v = 2*10**8 m/s
+
+# 100m/s = 0.1s
+
+#Distância: d=v*t
+
+# d=2*10**8*0.1
